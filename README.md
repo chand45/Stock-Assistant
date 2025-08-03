@@ -2,11 +2,10 @@
 
 An intelligent stock analysis agent built using [LangGraph](https://github.com/langchain-ai/langgraph) that provides comprehensive stock analysis by combining fundamental and technical analysis to make investment decisions.
 
-<div align="center">
-  <img src="./Images/graph_view.png" alt="Graph view in LangGraph studio UI" width="75%" />
-</div>
+![Graph view in LangGraph studio UI](./Images/graph_view.png)
 
 The stock assistant agent performs multi-step analysis including:
+
 - **Stock Identification**: Automatically identifies and formats stock tickers for NSE (National Stock Exchange)
 - **Fundamental Analysis**: Analyzes financial ratios, earnings reports, and company fundamentals
 - **Technical Analysis**: Evaluates charts, trends, and technical indicators
@@ -159,6 +158,7 @@ Currently optimized for NSE (National Stock Exchange) stocks. To add support for
 The application supports hot reload for development. Changes to the graph logic will be automatically applied when using `langgraph dev`.
 
 Key files:
+
 - `src/agent/agent.py`: Main agent logic and graph definition
 - `langgraph.json`: LangGraph configuration
 - `requirements.txt`: Python dependencies
